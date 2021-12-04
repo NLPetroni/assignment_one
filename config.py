@@ -1,13 +1,13 @@
-EPOCHS = 250
-BATCH_SIZE = 128
+EPOCHS = 100
+BATCH_SIZE = 32
 
 TYPE = 'lstm'
 REC_SIZE = 1
-UNITS = None
-HID_SIZE = 20
+UNITS = 128
+HID_SIZE = 64
 
-OPTIM = 'rmsprop'
-LR = 0.001
+OPTIM = 'adam'
+LR = 0.0005
 ALPHA = 0.99 
 MOMENTUM = 0.5 
 BETAS = (0.9, 0.999) 
