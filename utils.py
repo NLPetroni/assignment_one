@@ -28,9 +28,6 @@ def download_and_unzip(url, save_dir='.'):
         zipf = ZipFile(BytesIO(r.read()))
         zipf.extractall(path=save_dir)
         print(f'completed')
-    else:
-        print(f'{fname} already downloaded')
-
 
 def get_wandbkey():
     with open('wandbkey.txt') as f:
