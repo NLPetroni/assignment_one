@@ -6,8 +6,8 @@ REC_SIZE = 1
 UNITS = 128
 HID_SIZE = 64
 
-OPTIM = 'adam'
-LR = 5e-4
+OPTIM = 'rmsprop'
+LR = 2e-4
 ALPHA = 0.95
 MOMENTUM = 0.5
 BETAS = (0.9, 0.999) 
